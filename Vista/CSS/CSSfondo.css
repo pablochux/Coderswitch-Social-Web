@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+	background-image: url("../Img/code1.jpeg");
+}
+
+.form {
+	float: right;
+}
+
