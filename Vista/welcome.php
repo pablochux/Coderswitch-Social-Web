@@ -9,8 +9,10 @@
 
 
 <p class="welcome"> 
-		¡ Bienvenido/a Usuario/a
-						<?php //echo $username ?> !
+		¡ Bienvenido/a
+						<?php session_start();
+						echo $_SESSION["user"];
+						?> !
 </p>
 
 

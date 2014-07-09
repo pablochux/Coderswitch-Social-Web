@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+
 <title> Registro </title>
 </head>
 <body>
 
 <?php
+session_start();
+
+include "../Modelo/basedeDatos.php";
+
 
 $user = $_POST["user"];
 
 $pass = $_POST["pass"];
 
-echo "<h1>";
-var_dump($user);
-echo "</h1>";
-echo "<br>";
-echo "<h1>";
-var_dump($pass);
-echo "</h1>";
+if (isUserValid($user, $pass)) {
+
+		$_SESSION["user"] = $_POST["user"];
+
+		header("Location: ../Vista/welcome.php");
+		// Redirigir a welcome si el usuario y la contraseña coinciden con los almacenados en la base de datos
+	}
+else {
+	echo "Usuario o contraseña incorrectos";
+}
+
+
+
+
+
+
+
 
 ?>
 

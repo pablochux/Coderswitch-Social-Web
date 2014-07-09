@@ -9,9 +9,12 @@
 </head>
 <body>
 
-<?php include("formulario.html") ?>
+<?php 
 
-<img src="./Img/logocoder.gif"> 
+
+include("formulario.html") ?>
+
+<img src="./Img/1.png" height="100" width="500"> 
 
 
 </body>
