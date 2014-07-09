@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="keywords" content="coderswitch, código, programación, HTML, PHP, MySQL, bases de datos">
 <meta name="description" content="Red social oficial del curso coderswitch">
+
 </head>
 <body>
 
