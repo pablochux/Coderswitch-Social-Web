@@ -12,7 +12,7 @@
 <?php 
 
 
-include("formulario.html") ?>
+include("formularioLogin.html") ?>
 
 <img src="./Img/1.png" height="100" width="500"> 
 

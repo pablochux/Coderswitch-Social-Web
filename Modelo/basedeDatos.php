@@ -1,5 +1,9 @@
 <?php
 
+/* La función isUserValid conecta con la base de datos y ejecuta la query, si saca datos es que hay un usuario y una contraseña que coincida, 
+por lo que devolverá true. En el caso en el que el usuario o la contraseña introducidos no existan, la query no devuelve nada. Por lo que es false */
+
+
 function isUserValid($user, $pass) {
 
 	$connection = mysqli_connect("localhost", "usuario", "1234", "CoderswitchSocial");
@@ -23,4 +27,5 @@ else {
 	return true;
 }
 }
+
 ?>

@@ -2,6 +2,7 @@
 
 body {
 	background-image: url("../img/copiacode1.jpeg");	
+
 }
 
 /* Centrar texto h1 */
@@ -18,8 +19,7 @@ body {
 	    text-align: center;
 		font-size: 100px;
 		color: #D7DF01;
-		font-family: "Helvetica Neue";
-	}
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	}
 
 	.inner {
 	    margin-left: auto;

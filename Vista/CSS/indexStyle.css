@@ -275,6 +275,10 @@ FOOTER
 }
 
 /* Register button */
+.register {
+
+	text-decoration: none;
+}
 .login-form .footer .register {
 	display: block;
 	float: right;
