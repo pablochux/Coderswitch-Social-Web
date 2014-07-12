@@ -20,7 +20,7 @@ body {
 .login-form .content .input {
 	width: 188px;
 	padding: 8px 10px;
-	
+
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
@@ -34,11 +34,14 @@ body {
 	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-webkit-transition: width .5s;
 
 
 }
 
-
+.login-form .content .input:focus {
+	width: 250px;
+}
 SELECT {
 	font-size: 20px;
 }

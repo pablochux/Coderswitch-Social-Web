@@ -13,55 +13,55 @@
 <div id="hola">
 <form method="post" action="" class="login-form">
 	<div class="content">
-		<label> Nombre: </label>
-			<input type="text" value="Escribe aquí tu nombre" onfocus="this.value=''" class="input" required aria-required="true">
+		<label for="nombre"> Nombre: </label>
+			<input type="text" id="nombre" placeholder="Escribe aquí tu nombre" class="input" required aria-required="true">
 				<br> 
 					<br>
-		<label> Apellidos </label>
-			<input type="text" value="Escribe aquí tus apellidos" onfocus="this.value=''" class="input" required aria-required="true">	
+		<label for="apellidos"> Apellidos </label>
+			<input type="text" id="apellidos" placeholder="Escribe aquí tus apellidos" class="input" required aria-required="true">	
 				<br> 
 					<br>
-		<label> Usuario: </label>
-			<input type="text" value="Escribe aquí tu usuario" onfocus="this.value=''" class="input" required aria-required="true">
+		<label for="usuario"> Usuario: </label>
+			<input type="text" id="usuario" placeholder="Escribe aquí tu usuario" class="input" required aria-required="true">
 				<br>
 					<br>
-		<label> Contraseña: </label>
-			<input type="password" value="Escribe aquí" onfocus="this.value=''" class="input" required aria-required="true" >
+		<label for="pass"> Contraseña: </label>
+			<input type="password" id="pass" placeholder="Escribe aquí"  class="input" required aria-required="true" >
 				<br> 
 					<br>
-		<label> Repetir contraseña: </label>
-			<input type="password" value="Escribe aquí" onfocus="this.value=''" class="input" required aria-required="true" >
+		<label for="repass"> Repetir contraseña: </label>
+			<input type="password" id="repass" placeholder="Escribe aquí" class="input" required aria-required="true" >
 				<br> 
 					<br>
-		<label> Email:</label>
-			<input type="email" value="Escribe aquí tu email" onfocus="this.value=''" class="input" required required aria-required="true">
+		<label for="email"> Email:</label>
+			<input type="email" id="email"placeholder="Escribe aquí tu email"  class="input" required aria-required="true">
 				<br>
 					<br>
-		<label>Situación actual:</label>
-			<select name="idioma" class="formSelect" style="width:200px">>
+		<label for="actual">Situación actual:</label>
+			<select name="idioma" id="actual" class="formSelect" style="width:200px">>
 				<option value="Estudiante">Estudiante </option>
 					<option value="Trabajando">Trabajando </option>
 						<option value="Desempleado">Desempleado</option>
 			</select>
 				<br> 
 					<br>
-		<label> Hobbys:</label>
-			<input type="text" value="Escribe aquí tus hobbys" onfocus="this.value=''" class="input" required aria-required="true" >
+		<label for="hobbys"> Hobbys:</label>
+			<input type="text" id="hobbys" placeholder="Escribe aquí tus hobbys" class="input" required aria-required="true" >
 				<br> 
 					<br>
-		<label> Libros: </label>
-			<input type="text" value="Escribe aquí los libros que te estás leyendo" onfocus="this.value=''" class="input" required aria-required="true" >
+		<label for="libros"> Libros: </label>
+			<input type="text" id="libros" placeholder="Escribe aquí los libros que te estás leyendo"  class="input" required aria-required="true" >
 				<br> 
 					<br>
-		<label> Proyectos: </label>
-			<input type="text" value="Escribe aquí tus proyectos" onfocus="this.value=''" class="input" required aria-required="true">
+		<label for="proyectos"> Proyectos: </label>
+			<input type="text" id="proyectos" placeholder="Escribe aquí tus proyectos"  class="input" required aria-required="true">
 					<br>
-		<label> Twitter: </label>
- 			<input type="text" value="Escribe aquí tu Twitter" onfocus="this.value=''" class="input" required aria-required="true">
+		<label for="twitter"> Twitter: </label>
+ 			<input type="text" id="twitter" placeholder="Escribe aquí tu Twitter"  class="input" required aria-required="true">
 				<br> 
 					<br>
-		<label> Imágenes: <label>
-			<input type="text" value="Tercer campo" onfocus="this.value=''" class="input">
+		<label for="img" > Imágenes: <label>
+			<input type="text" id="img" placeholder="Tercer campo"  class="input">
 				<br>
 	</div>
 	
