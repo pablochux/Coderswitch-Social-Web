@@ -11,7 +11,7 @@
 
 session_start();
 
-include "../Modelo/basedeDatos.php";
+include("../Modelo/basedeDatos.php");
 
 
 $user = $_POST["user"];
