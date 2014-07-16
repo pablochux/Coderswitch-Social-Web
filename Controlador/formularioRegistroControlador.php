@@ -25,7 +25,8 @@ $twitter = $_POST["twitter"];
 
 $img = $_POST["img"]; 
 
-
+if($contra == $recontra) {
+	
 var_dump($nombre);
 echo "<br>";
 var_dump($apellidos);
@@ -51,6 +52,23 @@ echo "<br>";
 var_dump($img);
 
 
+include("../Modelo/nuevosDatos.php");
 
 
- ?>
+insertData($usuario, $contra, $nombre, $apellidos, $email, $actual, $hobbys, $libros, $proyectos, $twitter, $img);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+?>
