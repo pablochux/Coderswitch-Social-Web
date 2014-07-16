@@ -79,12 +79,6 @@ a#enlace {
 	margin-left: 50px;
 	
 	text-decoration: none;
-
-	
-	
-	
-	
-
 	background: none;
 	border: ;
 	cursor: pointer;
@@ -124,20 +118,31 @@ input[type="submit"]{
 }
 
 /* Efecto Alargamiento */
+input#registrar:{
+	
 
-input:focus{
+
+} 
+
+input#registrar:hover{
+	background-color: #3f9db8!important;
+	width: 230!important;
+}
+
+input#registrar:focus{
+	background-color: #3f9db8!important;
+	width: 230!important;
+}
+
+input.input:focus{
 	width: 350px;
 	background-color: #dfe9ec;
 }
 
-input:hover{
+input.input:hover{
 	background-color: #dfe9ec; 
 }
 
-
-input#registrar:hover{
-	background-color: #3f9db8;
-}
 
 
 .enl{

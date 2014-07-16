@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title> </title>
+<SCRIPT LANGUAGE="JavaScript">
+  function redireccionar() {
+    setTimeout("location.href='../Vista/index.php'", 5000);
+  }
+  </SCRIPT>
+
+</head>
+<body onLoad="redireccionar()">
+	
+
 <?php 
 // La función inserData inserta en la base de datos los datos introducidos en el formulario 
 
@@ -14,9 +29,13 @@ VALUES ('$usuario', '$contra', '$nombre', '$apellidos', '$email', '$actual', '$h
 $result2 = mysqli_query($connection2, $q2);
 
 
-echo "Datos introducidos correctamente";
+echo "Te has registrado correctamente, inicia sesión para continuar";
 
 
 }
 
  ?>
+
+
+ </body>
+</html>

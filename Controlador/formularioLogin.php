@@ -4,8 +4,14 @@
 	<meta charset="utf-8">
 
 	<title> Registro </title>
+	<SCRIPT LANGUAGE="JavaScript">
+  function redireccionar() {
+    setTimeout("location.href='../Vista/index.php?error=1'", 3000);
+  }
+  </SCRIPT>
 </head>
-<body>
+
+<body onLoad="redireccionar()">
 
 <?php
 
@@ -27,17 +33,13 @@ if (isUserValid($user, $pass)) {
 	}
 	
 else {
-	echo "Usuario o contraseña incorrectos";
+	echo "<h1>" . "Usuario o contraseña incorrectos" . "</h1>"; 
 }
 
 
-
-
-
-
-
-
 ?>
+
+
 
 </body>
 </html>

@@ -10,9 +10,15 @@
 <body>
 
 <?php 
+$errorClass = "";
 
+if ($_GET["error"]) {
+	// Si en la url encuentra error, imprime mal, solo encuentra error cuando el usuario y la contraseña no son correctos.
+	echo "MAL!";
+	$errorClass = "incorrecto";
+}
 
-include("formularioLogin.html") 
+include("formularioLogin.php") 
 
 ?>
 

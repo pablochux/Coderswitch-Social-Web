@@ -19,6 +19,12 @@ body{
 	border: 0;
 }
 
+.incorrecto{
+	outline: 2px solid #ff0800!important;
+	border-radius: 5px!important;
+	background: rgba(255, 44, 44, 0.5) !important;
+
+}
 
 #wrapper {
 	/* Center wrapper perfectly */
@@ -255,10 +261,6 @@ FOOTER
 	position: relative;
 	z-index: 1000;
 }
-
-
-
-
 
 
 
