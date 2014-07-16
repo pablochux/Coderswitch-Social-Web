@@ -1,3 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+* {
+	padding: 0px;
+	border: 0px;
+	font-family: "Helvetica Neue";
+	font-weight: lighter;
+}
+
 .img {
 	float: left;
 
@@ -7,81 +16,194 @@ body {
 	background-image: url("../img/copiacode1.jpeg");
 	color: white;
 }
-.login-form {
-	/* text-align: center; */
-}
-}
 
-.login-form .content {
-	padding: 0 30px 25px 30px;
-}
+section#formulario{
 
-/* Campos para registrarse */
-.login-form .content .input {
-	width: 188px;
-	padding: 8px 10px;
+	width: 450px;
+	min-height: 600px;
+    background-color: rgba(255, 255, 255, 0.4); 
 
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	color: #9d9e9e;
-	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
-	
-	background: #fff;
-	border: 1px solid #fff;
+/*	background-color: black;
+	opacity: 0.3; */
+	overflow: hidden;
 	border-radius: 5px;
 	
-	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
-	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
-	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
-	-webkit-transition: width .5s;
+	margin-left: 30%;
+	margin-right: 30%;
+	left: 50%;
+	top: 50%;
+	
+}
 
+
+p#titulo{
+	font-size: 1.9em;
+	text-align: center;
+	margin-top: 50px;
 
 }
 
-.login-form .content .input:focus {
+input[type="text"], input[type="email"], input[type="password"]{
 	width: 250px;
-}
-SELECT {
-	font-size: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: white;
+	border-radius: 5px;
+	-webkit-transition: width .5s;
+	opacity: 1;
 }
 
-/* Botón Confirmar Datos */
-.login-form .footer .button {
-	float:right;
-	padding: 11px 25px;
+select#actual {
+	width: 350px;
+	margin-left: 40px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+
+
+a#enlace {
+	margin-left: 50px;
+	
+	text-decoration: none;
+
+	
+	
+	
+	
+
+	background: none;
+	border: ;
+	cursor: pointer;
 	
 	font-family: 'Bree Serif', serif;
 	font-weight: 300;
-	font-size: 18px;
-	color: #fff;
-	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	font-size: 22px;
+	color: #414848;
+	text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
 	
-	background: #56c2e1;
-	border: 1px solid #46b3d3;
-	border-radius: 5px;
-	cursor: pointer;
-	
-	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
-	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
-	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
 }
 
-.login-form .footer .button:hover {
-	background: #3f9db8;
-	border: 1px solid rgba(256,256,256,0.75);
-	
-	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
-	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+a#enlace:hover {
+	color: #dfe9ec;
 }
 
-.login-form .footer .button:focus {
+a#enlace:focus {
 	position: relative;
 	bottom: -1px;
-	
-	background: #56c2e1;
-	
-	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
-	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
-	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+
+} 
+
+input[type="submit"]{
+	margin: 45px;
+	width: 230px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: #75b6dc; 
+	color: white;
+	font-size: 1.2em;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 5px 0px #659dbf;
+	-moz-box-shadow: 0px 5px 0px #659dbf;
+	-o-box-shadow: 0px 5px 0px #659dbf;
+	-ms-box-shadow: 0px 5px 0px #659dbf;
+}
+
+/* Efecto Alargamiento */
+
+input:focus{
+	width: 350px;
+	background-color: #dfe9ec;
+}
+
+input:hover{
+	background-color: #dfe9ec; 
+}
+
+
+input#registrar:hover{
+	background-color: #3f9db8;
+}
+
+
+.enl{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+
+.botones {
+	height: 100px;
+
+}
+
+p {
+	font-family: "Helvetica Neue";
+	font-size: 25pt;
+	padding-left: 70px;
+	color: white;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

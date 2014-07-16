@@ -1,22 +1,10 @@
-/*******************
-LOGIN FORM STYLESHEET
-by: Amit Jakhu
-www.amitjakhu.com
-*******************/
-
-/*******************
-FONTS
-*******************/
-
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-
-/*******************
-SELECTION STYLING
-*******************/
 
 body{
 	background-image: url("../img/copiacode1.jpeg");
-	max-width: 1024;
+	/* background-position: 100% 100%;
+	background-attachment: scroll; */
+
 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight:300;
@@ -24,18 +12,6 @@ body{
 	text-decoration: none;
 }
 
-::selection {
-	color: #fff;
-	background: #f676b2; /* Safari */
-}
-::-moz-selection {
-	color: #fff;
-	background: #f676b2; /* Firefox */
-}
-
-/*******************
-BODY STYLING
-*******************/
 
 * {
 	margin: 0;
@@ -55,42 +31,6 @@ BODY STYLING
 	margin-top: -200px;
 }
 
-/*
-.gradient {
-	width: 600px;
-	height: 600px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -300px;
-	margin-top: -300px;
-	
-	background: url(../images/gradient.png) no-repeat;
-}
-*/
-/*
-.gradient {
-	Center Positioning
-	width: 600px;
-	height: 600px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -300px;
-	margin-top: -300px;
-	
-	Fallback
-	background-image: url(../img/gradient.png); 
-	background-repeat: no-repeat; 
-	
-	CSS3 Gradient
-	background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213,246,255,1)), to(rgba(213,246,255,0)));
-	background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-	background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
-}
-*/
 /*******************
 LOGIN FORM
 *******************/
@@ -244,7 +184,7 @@ FOOTER
 	color: #fff;
 	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
 	
-	background: #56c2e1;
+	background: #75b6dc;
 	border: 1px solid #46b3d3;
 	border-radius: 5px;
 	cursor: pointer;
@@ -304,3 +244,21 @@ FOOTER
 	position: relative;
 	bottom: -1px;
 }
+
+
+
+
+.enl{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	position: relative;
+	z-index: 1000;
+}
+
+
+
+
+
+
+
