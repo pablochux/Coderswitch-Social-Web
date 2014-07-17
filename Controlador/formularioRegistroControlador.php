@@ -25,17 +25,21 @@ $twitter = $_POST["twitter"];
 
 $img = $_POST["img"]; 
 
+
 if($contra == $recontra) {
 	
 
-include("../Modelo/nuevosDatos.php");
+	include("../Modelo/nuevosDatos.php");
 
 
-insertData($usuario, $contra, $nombre, $apellidos, $email, $actual, $hobbys, $libros, $proyectos, $twitter, $img);
+	insertData($usuario, $contra, $nombre, $apellidos, $email, $actual, $hobbys, $libros, $proyectos, $twitter, $img);
 
 
 }
 
+else {
+	header("Location: ../Vista/formularioRegistro.php?error=1");
+}
 
 
 

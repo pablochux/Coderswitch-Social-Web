@@ -7,6 +7,23 @@
 	font-weight: lighter;
 }
 
+/* Formularios en rojo por error */ 
+.errorStyle {
+	border: 2px solid #ff0800!important;
+	border-radius: 5px!important;
+	background: rgba(255, 44, 44, 0.5) !important;
+
+}
+
+.errorStyle2 {
+	border: 2px solid #ff0800!important;
+	border-radius: 5px!important;
+	background: rgba(255, 44, 44, 0.5) !important;
+	
+}
+/* */ 
+
+
 .img {
 	float: left;
 

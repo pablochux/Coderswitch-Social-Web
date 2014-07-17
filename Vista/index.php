@@ -12,9 +12,8 @@
 <?php 
 $errorClass = "";
 
-if ($_GET["error"]) {
+if (isset($_GET["error"])) {
 	// Si en la url encuentra error, imprime mal, solo encuentra error cuando el usuario y la contraseña no son correctos.
-	echo "MAL!";
 	$errorClass = "incorrecto";
 }
 

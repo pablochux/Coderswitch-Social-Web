@@ -3,13 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title> </title>
-	<!--
-<SCRIPT LANGUAGE="JavaScript">
+	<SCRIPT LANGUAGE="JavaScript">
   function redireccionar() {
     setTimeout("location.href='../Vista/index.php'", 5000);
   }
   </SCRIPT>
--->
+
 
 </head>
 <body onLoad="redireccionar()">
@@ -32,7 +31,7 @@ $row3 = mysqli_fetch_assoc($result3);
 
 if (isset($row3)) {
 
-	header("Location: ../Vista/errorRegistro.php");
+	header("Location: ../Vista/formularioRegistro.php?error=2");
 
 }
 
