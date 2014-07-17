@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title> Registro </title>
 	<link rel="stylesheet" href="CSS/formularioRegistroStyle.css" type="text/css">
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<!--//code.jquery.com/jquery-1.11.0.min.js"-->
 	<script>
 
 	$(function() {
