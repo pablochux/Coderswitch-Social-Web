@@ -5,7 +5,9 @@
 <meta charset="utf-8">
 <meta name="keywords" content="coderswitch, código, programación, HTML, PHP, MySQL, bases de datos">
 <meta name="description" content="Red social oficial del curso coderswitch">
-
+<title> Coderswitch Social </title>
+<script src="./pace/Pace.js"></script>
+<link rel="stylesheet" href="./pace/pace.css">
 </head>
 <body>
 
@@ -23,6 +25,7 @@ include("formularioLogin.php")
 
 <nav class="botones">
 <img src="./img/1.png" width="490px" height="90px"> 
+	<a href="./info.php" class="info enl"> INFO!!! </a>
 
 	<a href="http://coderswitch.com/curso/" class="enl"> 
 		<img width="45px" height="45px" src="./img/Iconos/internet-web-browser-128.png"> 
