@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+* {
+	padding: 0px;
+	border: 0px;
+	font-family: "Helvetica Neue";
+	font-weight: lighter;
+}
+
 body {
 	background-image: url("../img/copiacode1.jpeg");	
 

@@ -1,4 +1,13 @@
+@charset "utf-8";
+
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+* {
+	padding: 0px;
+	border: 0px;
+	font-family: "Helvetica Neue";
+	font-weight: lighter;
+}
 
 body{
 	background-image: url("../img/copiacode1.jpeg");
@@ -265,5 +274,10 @@ FOOTER
 	z-index: 1000;
 }
 
+/* Info */
+.info{
+	font-size: 20px;
+	color: white;
+}
 
 
