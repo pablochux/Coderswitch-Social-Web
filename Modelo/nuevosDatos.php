@@ -5,7 +5,7 @@
 	<title> </title>
 	<SCRIPT LANGUAGE="JavaScript">
   function redireccionar() {
-    setTimeout("location.href='../Vista/index.php'", 5000);
+    setTimeout("location.href='../Vista/index.php'", 2000);
   }
   </SCRIPT>
 
