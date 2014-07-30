@@ -24,28 +24,32 @@ include("formularioLogin.php")
 ?>
 
 <nav class="botones">
-<img src="./img/1.png" width="490px" height="90px"> 
-	<a href="./info.php" class="info enl"> INFO!!! </a>
+	<img src="./img/1.png" width="490px" height="90px"> 
+		<div id="sociales">
+			<a href="./info.php" class="info enl"> <img width="50px" height="50px"src="./img/Iconos/info.png"></a>
 
-	<a href="http://coderswitch.com/curso/" class="enl"> 
-		<img width="45px" height="45px" src="./img/Iconos/internet-web-browser-128.png"> 
-	</a>
+			<a href="http://coderswitch.com/curso/" class="enl"> 
+				<img width="50px" height="50px" src="./img/Iconos/internet-web-browser-128.png"> 
+			</a>
 
-	<a href="http://twitter.com/coderswitch" class="enl"> 
-		<img width="50px" height="50px" src="./img/Iconos/twitter111.png"> 
-	</a>
-	
-	<a href="http://coderswitch.com/blog/" class="enl"> 
-		<img width="50px" height="50px" src="./img/Iconos/blogger111.png"> 
-	</a>
+			<a href="http://twitter.com/coderswitch" class="enl"> 
+				<img width="50px" height="50px" src="./img/Iconos/twitter111.png"> 
+			</a>
+			
+			<a href="http://coderswitch.com/blog/" class="enl"> 
+				<img width="50px" height="50px" src="./img/Iconos/blogger111.png"> 
+			</a>
 
-	<a href="mailto:info@coderswitch.com" class="enl"> 
-		<img width="50px" height="50px" src="./img/Iconos/email111.png"> 
-	</a>
-
+			<a href="mailto:info@coderswitch.com" class="enl"> 
+				<img width="50px" height="50px" src="./img/Iconos/email111.png"> 
+			</a>
+		</div>
 </nav>
 
-
+<footer>
+	Coderswitch © y Coderswitch Social © son marcas registradas pertenecientes a Ivan Maeder.
+	
+</footer>
 </body>
 
 </html>

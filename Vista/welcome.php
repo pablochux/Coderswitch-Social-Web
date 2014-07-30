@@ -7,7 +7,7 @@
 
 <SCRIPT LANGUAGE="JavaScript">
   function redireccionar() {
-    setTimeout("location.href='mainPage.php'", 2000);
+    setTimeout("location.href='mainPage.php'", 1000);
   }
   </SCRIPT>
 
@@ -15,19 +15,20 @@
 <body onLoad="redireccionar()">
 <div class="outer">	<div class="middle"> <div class="inner">
 
-
-<p class="welcome"> 
-		¡ Bienvenido/a
+	<img src="./img/1.png" width="490px" height="90px"> 
+<h1> 
+		¡ Bienvenido/a <label id="usuario">
 						<?php session_start();
-						
-						if (!isset($_SESSION["user"])) {
-							header("Location: ./index.php");
-						}
-
+							
+							if (!isset($_SESSION["user"])) {
+								// Comprobación que el array está seteado
+								header("Location: ./index.php");
+							}
+							// Autentificación
 
 						echo $_SESSION["user"];
-						?> !
-</p>
+						?> </label> !
+</h1>
 
 <footer id="pulsa">
 Pulsa 

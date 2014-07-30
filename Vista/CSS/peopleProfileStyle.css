@@ -1,0 +1,75 @@
+* {
+padding: 0px;
+border: 0px;
+font-family: "Helvetica Neue";
+font-weight: lighter;
+}
+
+
+h1 {
+	padding: 20px 20px;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+#cabeza {
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 400px;
+
+	float: left;
+
+	margin-right: 50px;
+	margin-left: 50px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+
+#profile {
+	width: 900px;
+	height: 400px;
+	margin-top: 5%; 
+	margin-bottom: 10%; 
+	margin-right:auto;
+	margin-left:auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	clear: both;
+
+}
+
+#img {
+	float: left;
+	width: 40%;
+	height: 100%;
+	font-size: 40px;
+	margin-right: 0px;
+	text-align: center;
+	border: 1px solid blue;
+}
+
+
+#text {
+	float: right;
+	font-size: 32px;
+	width: 58%;
+	height: 100%;
+	line-height: 25px;
+
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#twitter:hover {
+	color: rgba(255, 255, 255, 0.5);
+
+}
+
+#email:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+

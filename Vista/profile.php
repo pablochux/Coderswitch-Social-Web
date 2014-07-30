@@ -31,6 +31,8 @@ include("../Modelo/profileDatos.php");
 
 
 
+
+
 // Comprobación usuario
 
 if (!isset($_SESSION["user"])) {
@@ -39,6 +41,7 @@ if (!isset($_SESSION["user"])) {
 
 }
 
+// Comprobación contraseña
 $error = "";
 $error2 = "";
 $placeholderContra = "Escriba aquí su contraseña";
@@ -61,34 +64,41 @@ if (isset($_GET["error"])) {
 }
 
 
+
+
 ?>	
 
 
-<div class="cont" id="div1"> 
-	<div id="img">
 
-	</div>
+
+<div id="cabeza">
+
+	<h1> Mi Perfil </h1>
+
 	
-	<div id="form1">
-		<form method="post" class="login-form" enctype="multipart/form-data" action="../Controlador/formularioControladorMiPerfil.php">
-		<label id="labelImg"> Imagen: <label>
-				<!-- <input name="img" type="file" id="formImg" class="input" required > -->
-					
-			
-	</div>
 </div>
 
-<div class="cont" id="div2"> 
+
+
+<div class="cont" id="div1"> 
 	<div class="formularios">
 		<section class="contenedores" id="cont1">
+			<form method="post" class="login-form" enctype="multipart/form-data" action="../Controlador/formularioControladorMiPerfil.php">
+
+				<div id="img">
+	
+				</div><br><br><br><br><br><br><br><br><br>
+
+				<label id="labelImg"> Imagen: <label> <br><br>
+				<!-- <input name="img" type="file" id="formImg" class="input" required > -->
+
+
 				<input name="nombre" type="text" id="nombre" class="input" required placeholder="Escriba aquí su nombre" value="<?= $BD["Nombre"] ?>" onfocus="this.value=''">
 
 				<input name="apellidos" type="text" id="apellidos" class="input" required placeholder="Escriba aquí sus apellidos" value="<?= $BD["Apellidos"] ?>" onfocus="this.value=''">
 				
-				<input name="usuario" type="text" id="usuario" class="input" required placeholder="Escriba aquí su usuario" value="<?= $BD["Usuario"] ?>" onfocus="this.value=''">
-				
-				<input name="email" type="email" id="email"  class="input" required placeholder="Escriba aquí su email" value="<?= $BD["Email"] ?>" onfocus="this.value=''">
-	
+		
+
 		</section>
 
 		
@@ -114,23 +124,44 @@ if (isset($_GET["error"])) {
 	 	</section>
 	 	<section class="contenedores" id="cont2">	
 
+				<input name="usuario" type="text" id="usuario" class="input" required placeholder="Escriba aquí su usuario" value="<?= $BD["Usuario"] ?>" onfocus="this.value=''">
+				
+				<input name="email" type="email" id="email"  class="input" required placeholder="Escriba aquí su email" value="<?= $BD["Email"] ?>" onfocus="this.value=''">
+	
+
 				<input name="contra" type="password" id="pass" class="input <?= $error ?>" required placeholder="<?= $placeholderContra ?>">
 				
 				<input name ="recontra" type="password" id="repass"  class="input <?= $error ?>"  required placeholder="<?= $placeholderReContra ?>">
-			
+				
+				<label id="labelImg"> Imagen: <label>
+				<input name="img" name="img" type="file" id="img" class="input" required>
 			
 				
-				<input type="submit" value="¡Registrame!" id="registrar">	
+				<input type="submit" value="Actualizar Datos" id="registrar">	
 				</section>		
 
 			</form>
 	</div>
+
+<?php
+
+if (isset($_GET["estado"])) { 
+
+	if ($_GET["estado"] == "NR") {
+
+		echo "<h1 id='datos'>" . "Los datos se han cambiado" . "</h1>";
+
+
+	}
+}
+
+
+
+?>
+
 </div>
 
-
-
-
-
+<br> <br> <br> <br> <br> <br> <br>
 
 
 

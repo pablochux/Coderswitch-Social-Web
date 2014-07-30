@@ -48,8 +48,6 @@ VALUES ('$usuario', '$contra', '$nombre', '$apellidos', '$email', '$actual', '$h
 $result2 = mysqli_query($connection2, $q2);
 
 
-echo "Te has registrado correctamente, inicia sesión para continuar";
-
 
 }
 }

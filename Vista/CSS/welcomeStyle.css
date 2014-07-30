@@ -7,9 +7,16 @@
 	font-weight: lighter;
 }
 
-body {
-	background-image: url("../img/copiacode1.jpeg");	
+body{
 
+	background-image: url("../img/copiacode1.jpeg");
+	
+/*
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+	text-align: left;
+	text-decoration: none;
+*/
 }
 
 /* Centrar texto h1 */
@@ -22,10 +29,10 @@ body {
 
 	.middle {
 	    display: table-cell;
-	    vertical-align: middle;
+	    vertical-align: top;
 	    text-align: center;
-		font-size: 100px;
-		color: #D7DF01;
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 3.5em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	}
 
 	.inner {
@@ -33,7 +40,11 @@ body {
 	    margin-right: auto; 
 	
 	}
- /* */
+
+h1{
+	color: white;
+	
+}
 
 #pulsa{
  	font-size: 20px;
@@ -41,7 +52,20 @@ body {
 	
  }
 
+
  a{
  	text-decoration: none;
- 	color: red;
+ 	color: rgba(255, 255, 255, 0.6);
  }
+
+label{
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+

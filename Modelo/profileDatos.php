@@ -8,6 +8,7 @@ function datosPerfil() {
 		FROM Social 
 		WHERE Usuario = '" . $_SESSION["user"] . "'";
 
+
 	$resultDatosPerfil = mysqli_query($connectionDatosPerfil, $qDatosPerfil);
 
 	$BD = mysqli_fetch_assoc($resultDatosPerfil);

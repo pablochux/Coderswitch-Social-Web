@@ -25,7 +25,7 @@ $nombre = $_GET["nombre"];
 
 	<img src="./img/1.png" width="490px" height="90px"> 
 
-	<h1> Te has registrado correctamente <label> <?= $nombre ?> , inicia sesión para continuar <label> </h1>
+	<h1> Te has registrado correctamente <label> <?= $nombre ?>. Inicia sesión para continuar <label> </h1>
 
 </div> </div> </div>
 </body>

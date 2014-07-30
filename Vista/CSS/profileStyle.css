@@ -8,17 +8,8 @@
 }
 
 /* Divs */
-#div1{
-	width: 800px;
-	height: 150px;
-	background-color: rgba(255, 255, 255, 0.7);
-	float: left;
-	margin-bottom: 1px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
 
-#div2 {
+#div1 {
 	width: 1254px;
 	height: 500px;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -27,9 +18,27 @@
 	margin-left: 5px;
 	margin-right: 5px;
 	border: blue solid 1px;
-
-
 }
+
+
+/* Header */
+#cabeza{
+	height: 100px;	
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 350px;
+	float: left;
+	z-index: 2;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+h1{
+	text-align: center;
+	font-size: 55px;
+	padding: 2px 2px;
+	margin-top: 10px;
+}
+
 
 /* Formulario */
 
@@ -40,7 +49,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	height: 35px;
 	margin-top: 10px;
 	padding-left: 10px;
-	font-size: 1.1em;
+	font-size: 20px;
 	outline: none;
 	border: 0px;
 	background-color: white;
@@ -84,6 +93,10 @@ div#img{
 	padding: 10px 10px;
 	float: left;
 	border: blue solid 1px;
+	margin-left: 50px;
+	margin-top: 10px;
+	display: block;
+
 	
 }
 
@@ -106,6 +119,8 @@ div#form1{
 /* Texto imagen */
 label#labelImg{
 	font-size: 25px;
+	margin-left: 20px;
+
 }
 
 
@@ -179,9 +194,18 @@ input#registrar:focus{
 
 
 
+h1:hover{
+color: white;
+}
 
+#datos:hover{
+color: white;
+}
 
-
+#datos {
+	color: black ;
+	/* rgba(255, 255, 255, 0.9) */
+}
 
 
 

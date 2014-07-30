@@ -6,3 +6,41 @@
 	font-family: "Helvetica Neue";
 	font-weight: lighter;
 }
+
+
+body{
+
+	background-image: url("../img/copiacode1.jpeg");
+}
+
+
+div {
+	margin: 50px 50px;
+}
+
+#imagen{
+	position: justify;
+}
+
+/* Texto */
+h1{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 2.1em;
+}
+
+p{
+	color: white;
+}
+
+/* Enlace */
+a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+	font-style: italic;
+
+}
+
+a:hover{
+	color: white;
+}
+

@@ -22,11 +22,6 @@ body{
 }
 
 
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
 
 /* Login incorrecto */
 .incorrecto{
@@ -278,6 +273,23 @@ FOOTER
 .info{
 	font-size: 20px;
 	color: white;
+}
+#sociales{
+	background-color: rgba(255,255,255,0.4);
+	float: right;
+	border-radius: 40px;
+
+z-index: 2000000;
+
+	width: 283px;
+	height: 70px;
+	margin: 1px 1px;
+	padding: 0px;
+}
+
+footer {
+	color: white;
+	vertical-align: bottom;
 }
 
 

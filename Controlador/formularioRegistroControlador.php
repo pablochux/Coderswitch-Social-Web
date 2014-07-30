@@ -23,8 +23,10 @@ $proyectos = $_POST["proyectos"];
 
 $twitter = $_POST["twitter"];
 
+/*
 $img = $_POST["img"]; 
 
+*/
 
 if($contra == $recontra) {
 	
@@ -34,6 +36,7 @@ if($contra == $recontra) {
 
 	insertData($usuario, $contra, $nombre, $apellidos, $email, $actual, $hobbys, $libros, $proyectos, $twitter, $img);
 
+header("Location: ../Vista/formularioRegistroRedirect.php?nombre=$nombre");
 
 }
 
