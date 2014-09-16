@@ -2,12 +2,11 @@
 <html lang="es">
 <head>
 
-<meta charset="utf-8">
-<meta name="keywords" content="coderswitch, código, programación, HTML, PHP, MySQL, bases de datos">
-<meta name="description" content="Red social oficial del curso coderswitch">
-<title> Coderswitch Social </title>
-<script src="./pace/Pace.js"></script>
-<link rel="stylesheet" href="./pace/pace.css">
+	<meta charset="utf-8">
+	<meta name="keywords" content="coderswitch, código, programación, HTML, PHP, MySQL, bases de datos">
+	<meta name="description" content="Red social oficial del curso coderswitch">
+	<title> Coderswitch Social </title>
+
 </head>
 <body>
 
@@ -48,7 +47,6 @@ include("formularioLogin.php")
 
 <footer>
 	Coderswitch © y Coderswitch Social © son marcas registradas pertenecientes a Ivan Maeder.
-	
 </footer>
 </body>
 

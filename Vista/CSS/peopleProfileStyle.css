@@ -49,13 +49,12 @@ h1 {
 	font-size: 40px;
 	margin-right: 0px;
 	text-align: center;
-	border: 1px solid blue;
 }
 
 
 #text {
 	float: right;
-	font-size: 32px;
+	font-size: 30px;
 	width: 58%;
 	height: 100%;
 	line-height: 25px;

@@ -5,7 +5,7 @@ function datosPerfil ($usuario) {
 
 		$qPeopleProfile = "SELECT *
 		           FROM Social
-		           WHERE Usuario = $usuario";
+		           WHERE Usuario = '$usuario'";
 
 			$resultPeopleProfile = mysqli_query($connectionPeopleProfile, $qPeopleProfile);
 

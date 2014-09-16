@@ -84,13 +84,12 @@ if (isset($_GET["error"])) {
 	<div class="formularios">
 		<section class="contenedores" id="cont1">
 			<form method="post" class="login-form" enctype="multipart/form-data" action="../Controlador/formularioControladorMiPerfil.php">
-
+<label id="labelImg"> Imagen: <label> <br><br>
 				<div id="img">
-	
-				</div><br><br><br><br><br><br><br><br><br>
+				
+		<img src="<?= $BD['Imagen']?>" width="200px" height="200px"> 
+				</div><br><br><br><br><br><br><br><br>
 
-				<label id="labelImg"> Imagen: <label> <br><br>
-				<!-- <input name="img" type="file" id="formImg" class="input" required > -->
 
 
 				<input name="nombre" type="text" id="nombre" class="input" required placeholder="Escriba aquí su nombre" value="<?= $BD["Nombre"] ?>" onfocus="this.value=''">
@@ -132,7 +131,7 @@ if (isset($_GET["error"])) {
 				<input name="contra" type="password" id="pass" class="input <?= $error ?>" required placeholder="<?= $placeholderContra ?>">
 				
 				<input name ="recontra" type="password" id="repass"  class="input <?= $error ?>"  required placeholder="<?= $placeholderReContra ?>">
-				
+				<br>
 				<label id="labelImg"> Imagen: <label>
 				<input name="img" name="img" type="file" id="img" class="input" required>
 			

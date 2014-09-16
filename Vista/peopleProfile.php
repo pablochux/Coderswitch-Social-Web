@@ -37,7 +37,10 @@ $datos = datosPerfil ($usuario);
 <div id="profile">
 
 		<div id="img">
-			Imagen:
+			Imagen: 
+			<br>
+			<br>
+				<img src=" <?= $datos[0]["Imagen"] ?> ">
 			
 		</div>
 

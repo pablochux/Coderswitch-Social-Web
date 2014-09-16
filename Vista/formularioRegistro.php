@@ -5,7 +5,6 @@
 	<title> Registro </title>
 	<link rel="stylesheet" href="CSS/formularioRegistroStyle.css" type="text/css">
 	<script src="./js/jquery-1.11.1.min.js"></script>
-	<!--//code.jquery.com/jquery-1.11.0.min.js"-->
 	<script>
 
 	$(function() {
@@ -128,18 +127,18 @@ if ($error2 == "errorStyle2") {
 	 			<input name="twitter" type="text" id="twitter" placeholder="Escribe aquí tu Twitter"  class="input" required>
 				
 				<label id="labelImg"> Imagen: <label>
-				<input name="img" name="imagenPerfil" type="file" id="img" class="input" required>
+				<input name="imagenPerfil" type="file" id="img" class="input" required>
 
 <div id="cont">
 				<a href="index.php" id="enlace"> Volver </a>
 
 				<input type="submit" value="¡Registrame!" id="registrar" name="guardar">
 
-<div>
+</div>
 
-	
+</section>
 
-	</section>
+
 	
 </body>
 </html>

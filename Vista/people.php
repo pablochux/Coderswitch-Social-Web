@@ -67,7 +67,7 @@ foreach ($gente as $persona) {
 
 							'<a href="./peopleProfile.php?u=' . $persona["Usuario"] . '">' .
 							'<div class="imgPerfil">' .
-							
+							'<img src="' . $persona["Imagen"] . '">' .
 							'</div>' .
 
 								'<div class="infoPerfil">' .

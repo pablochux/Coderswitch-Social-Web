@@ -4,7 +4,7 @@ function datosPerfil() {
 */
 	$connectionDatosPerfil = mysqli_connect("localhost", "usuario", "1234", "CoderswitchSocial");
 
-	$qDatosPerfil = "SELECT Nombre, Apellidos, Usuario, Email, Hobbys, Libros, Proyectos, Twitter, Profesion
+	$qDatosPerfil = "SELECT Nombre, Apellidos, Usuario, Email, Hobbys, Libros, Proyectos, Twitter, Profesion, Imagen
 		FROM Social 
 		WHERE Usuario = '" . $_SESSION["user"] . "'";
 

@@ -35,42 +35,41 @@ color: white;
 	width: 1270px;
 	clear: both;
 	background-color: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
 
 }
 
 
 .fila{
 	width: 100%;
-	height: 25%;
+	height: 20.5%;
 
-	border: 1px solid blue;
 }
 
 
 .profile{
-	width: 20%;
+	width: 17%;
 	height: 90%;
 	float: left;
 
 	margin-top: 1%;
 	margin-bottom: 1%;
-	margin-right: 2.35%;
-	margin-left: 2.35%;
+	margin-right: 3.35%;
+	margin-left: 3.35%;
 	
 
 
 
-	border: 1px solid blue;
 }
 
 
 .imgPerfil {
 	height: 78%;
 	width: 96%;
-
+text-align: center;
 	margin: 3px 2%;
 
-	border: 1px solid red;
+
 }
 
 .infoPerfil {
@@ -79,7 +78,6 @@ color: white;
 
 	margin: 3px 2%;
 
-	border: 1px solid green;
 }
 
 
@@ -116,7 +114,6 @@ color: white;
 	margin-left: 5%;
 	margin-bottom: 10%;
 
-	border: 1px solid blue;
 }
 
 
